@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Completed') {
             steps {
-                echo "last step of the process"
+                echo "changed last step of the process in the branch"
             }
         }
         
